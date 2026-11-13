@@ -62,3 +62,33 @@ public class ArrayListproblems {
 
     }
 }
+
+import java.util.*;
+
+public class RemoveDuplicateusingAL {
+        public static void main(String[] args) {
+            ArrayList<Integer> list  = new ArrayList<>();
+
+            list.add(10);
+            list.add(11);
+            list.add(12);
+            list.add(11);
+            list.add(10);
+
+            // LinkedHashSet<Integer> set =  new LinkedHashSet<>(list);
+            // ArrayList <Integer> res = new ArrayList<>(set);
+            // System.out.println(res);
+            
+            ArrayList <Integer> res = new ArrayList<>();
+            for(int i = 0;i<list.size();i++){
+                if(!res.contains(list.get(i))){
+                    res.add(list.get(i));
+                }
+            }
+            System.out.println(res);
+            
+        
+        
+        }    
+}
+
