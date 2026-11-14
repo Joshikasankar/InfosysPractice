@@ -1,0 +1,14 @@
+HashMap ---> Key value pair     (put,get,getOrDefault
+  values are accessed by keys
+  Example : 
+       Phone Contacts :
+                       numbers are mapped to names.
+
+
+        Operations :
+              put  --> create an element in the hashmap
+              Example :
+                       map.put("Ravi", 2);
+                       map.put("Priya", 5);
+              get  ----> to get an element or read
+              containsKey --------> to check 
